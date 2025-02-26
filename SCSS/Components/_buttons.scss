@@ -1,0 +1,12 @@
+.hero-button{
+    background-color: #62D0B6;
+    border: 1px solid #62D0B6;
+    width: 200px;
+    height: 56px;
+    color: white;
+    border-radius: 5px;
+    transition: .3s ease;
+    &:hover{
+        background-color: #81D9C5;
+    }
+}
