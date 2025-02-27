@@ -356,6 +356,7 @@
   padding: 0 10px;
   margin: 5px;
   position: relative;
+  cursor: pointer;
 }
 .header .top-nav ul li::after {
   content: "";
@@ -466,6 +467,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
+  padding: 0;
 }
 .header .bot-nav .links ul li {
   list-style: none;
@@ -473,17 +475,18 @@
   font-weight: 500;
   padding: 10px 5px;
   position: relative;
+  cursor: pointer;
 }
 .header .bot-nav .links ul li .dropdown {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 0;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  translate: -80px;
+  transition: 0.3s ease;
 }
 .header .bot-nav .links ul li .dropdown li {
   display: block;
