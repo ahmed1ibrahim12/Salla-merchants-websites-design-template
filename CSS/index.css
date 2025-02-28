@@ -40,11 +40,124 @@
   border-radius: 50%;
   width: 14px;
   height: 14px;
-  transition: 0.3s ease;
+  transition: 0.6s ease-in-out;
 }
 #hero .carousel-container .carousel-indicators .active {
   background-color: #62D0B6;
   width: 37px;
   border-radius: 8px;
   border: none;
-}/*# sourceMappingURL=index.css.map */
+  margin: auto 0px;
+}
+
+/************************Features section************************/
+.features {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  border: 1px solid #EEEEEE;
+}
+.features .feature {
+  position: relative;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features .feature .feature-icon {
+  width: 50px;
+  margin-left: 1rem;
+}
+.features .feature::after {
+  content: "";
+  background-color: #EEEEEE;
+  position: absolute;
+  top: calc(50% - 40px);
+  left: 0;
+  width: 1px;
+  height: 80px;
+}
+.features .feature:nth-child(3)::after {
+  content: none;
+}
+.features .feature p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.features .feature p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+}
+.features .feature div {
+  display: inline-block;
+}
+
+/************************banners section************************/
+.bannerscontainer {
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+.bannerscontainer .banner {
+  background-image: url("../../Assets/images/Home/Banner (1).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 48%;
+  height: 244px;
+  display: inline-block;
+  position: relative;
+  margin: 1rem 0;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  min-width: 350px;
+}
+.bannerscontainer .banner:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.bannerscontainer .banner .content {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  translate: 0 -50%;
+}
+.bannerscontainer .banner .content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+.bannerscontainer .banner .content a {
+  text-decoration: none;
+  color: #333333;
+  opacity: 0.7;
+}
+.bannerscontainer .banner .content h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************/
+/************************Hero section************************//*# sourceMappingURL=index.css.map */
